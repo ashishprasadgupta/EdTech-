@@ -4,7 +4,7 @@ require("dotenv").config();
 const dbConnect = () =>{
 
     try{
-        mongoose.connect(process.env.DATABASE_URL, {
+        mongoose.connect(process.env.MONGODB_URL, {
             // useNewUrlParser: true,
             // useUnifiedTopology: true,    
             // Above two lines are now deprecated 
